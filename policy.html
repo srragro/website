@@ -4,48 +4,64 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Policy and Carbon Credits - Indigenous Biochar</title>
+    <title>Policy and Carbon Credits — Shree Radha Rani Agrotech</title>
+    <meta name="description" content="National policy alignment and audit-ready engineering for verifiable carbon credits under CORC and VCS methodologies." />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400;600;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,30..100,0..1;1,9..144,400..700,30..100,0..1&family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
                 extend: {
-                    "colors": {
-                        "primary": "#012d1d",
+                    colors: {
+                        primary: "#012d1d",
                         "primary-container": "#1b4332",
                         "on-primary": "#ffffff",
                         "on-primary-container": "#86af99",
-                        "secondary": "#5b5d74",
-                        "secondary-container": "#ddddf9",
-                        "on-secondary-container": "#5f6178",
-                        "surface": "#f8f9fa",
-                        "on-surface": "#191c1d",
-                        "surface-variant": "#e1e3e4",
-                        "on-surface-variant": "#414844",
-                        "outline": "#717973",
-                        "outline-variant": "#c1c8c2",
-                        "background": "#f8f9fa",
-                        "on-background": "#191c1d",
-                        "error": "#ba1a1a",
-                        "surface-container-lowest": "#ffffff",
-                        "surface-container-low": "#f3f4f5",
-                        "surface-container": "#edeeef",
-                        "surface-container-high": "#e7e8e9",
-                        "surface-container-highest": "#e1e3e4",
                         "primary-fixed": "#c1ecd4",
                         "primary-fixed-dim": "#a5d0b9",
                         "on-primary-fixed": "#002114",
+                        accent: "#c97f2d",
+                        "accent-deep": "#9c5d1d",
+                        "accent-soft": "#e8d3b0",
+                        "on-accent": "#ffffff",
+                        background: "#f4ede0",
+                        surface: "#faf5ea",
+                        "surface-bright": "#fbf8f1",
+                        "surface-container-lowest": "#fbf8f1",
+                        "surface-container-low": "#efe6d2",
+                        "surface-container": "#ebe1c8",
+                        "surface-container-high": "#e3d8bb",
+                        "surface-container-highest": "#dccfa9",
+                        "on-surface": "#1a1d18",
+                        "on-surface-variant": "#4a4f43",
+                        "on-background": "#1a1d18",
+                        outline: "#807866",
+                        "outline-variant": "#c5bda7",
+                        error: "#a3361d",
                     },
-                    "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
-                    "spacing": { "gutter": "24px", "unit": "4px", "sm": "8px", "xs": "4px", "container-max": "1280px", "md": "16px", "xxl": "80px", "lg": "24px", "xl": "48px" },
-                    "fontFamily": { "label-md": ["metropolis", "sans-serif"], "caption": ["metropolis", "sans-serif"], "headline-md": ["metropolis", "sans-serif"], "display-lg": ["metropolis", "sans-serif"], "body-md": ["sourceSerifFour", "serif"], "headline-lg": ["metropolis", "sans-serif"], "body-lg": ["sourceSerifFour", "serif"] },
-                    "fontSize": { "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }], "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }] }
+                    fontFamily: {
+                        display: ['"Fraunces"', '"Source Serif 4"', 'Georgia', 'serif'],
+                        serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+                        sans: ['"Inter"', 'system-ui', 'sans-serif'],
+                    },
+                    fontSize: {
+                        eyebrow: ['11px', { lineHeight: '16px', letterSpacing: '0.22em', fontWeight: '600' }],
+                        label: ['13px', { lineHeight: '20px', letterSpacing: '0.04em', fontWeight: '600' }],
+                        body: ['17px', { lineHeight: '28px', fontWeight: '400' }],
+                        'body-lg': ['19px', { lineHeight: '32px', fontWeight: '400' }],
+                        'headline-sm': ['20px', { lineHeight: '28px', fontWeight: '600' }],
+                        'headline-md': ['26px', { lineHeight: '34px', fontWeight: '600', letterSpacing: '-0.01em' }],
+                        'headline-lg': ['40px', { lineHeight: '46px', fontWeight: '600', letterSpacing: '-0.02em' }],
+                        'display-sm': ['56px', { lineHeight: '60px', fontWeight: '600', letterSpacing: '-0.025em' }],
+                        'display-md': ['72px', { lineHeight: '76px', fontWeight: '600', letterSpacing: '-0.03em' }],
+                        'display-lg': ['104px', { lineHeight: '100px', fontWeight: '600', letterSpacing: '-0.035em' }],
+                    },
+                    borderRadius: { DEFAULT: '0px', sm: '2px', lg: '4px', xl: '8px', full: '9999px' },
+                    maxWidth: { 'container-max': '1280px', 'prose': '65ch' },
                 }
             }
         }
@@ -53,93 +69,179 @@
     <script src="./assets/js/main.js" defer></script>
 </head>
 
-<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col antialiased">
+<body class="bg-background text-on-background font-serif text-body min-h-screen flex flex-col antialiased dark:bg-primary-container dark:text-primary-fixed">
+
     <!-- Header -->
-    <header class="bg-surface dark:bg-primary-container sticky top-0 border-b border-outline-variant/20 dark:border-outline/10 shadow-sm z-50">
-        <div class="flex justify-between items-center max-w-container-max mx-auto px-lg py-md w-full">
-            <a href="./index.html" class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed">Indigenous Biochar</a>
-            <nav class="hidden md:flex gap-lg items-center">
-                <a class="text-on-surface-variant dark:text-on-primary-container hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-label-md text-label-md px-sm py-xs rounded" href="./index.html">Home</a>
-                <a class="text-on-surface-variant dark:text-on-primary-container hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-label-md text-label-md px-sm py-xs rounded" href="./technology.html">Technology</a>
-                <a class="text-on-surface-variant dark:text-on-primary-container hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-label-md text-label-md px-sm py-xs rounded" href="./sustainability.html">Sustainability</a>
-                <a class="text-primary dark:text-primary-fixed border-b-2 border-primary dark:border-primary-fixed pb-1 font-bold font-label-md text-label-md px-sm py-xs" href="./policy.html">Policy</a>
-                <a class="text-on-surface-variant dark:text-on-primary-container hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-label-md text-label-md px-sm py-xs rounded" href="./contact.html">Contact</a>
+    <header class="sticky top-0 bg-background/85 dark:bg-primary-container/85 backdrop-blur border-b border-outline-variant/40 dark:border-primary-fixed/10 z-50">
+        <div class="max-w-container-max mx-auto px-6 md:px-10 flex items-center justify-between h-[68px]">
+            <a href="./index.html" class="font-display text-[19px] font-semibold tracking-tight text-primary dark:text-primary-fixed leading-none">
+                Shree Radha Rani Agrotech
+                <span class="block font-sans text-[10px] font-medium tracking-[0.22em] uppercase text-on-surface-variant dark:text-primary-fixed/60 mt-1">Pune · India · est. 2024</span>
+            </a>
+            <nav class="hidden lg:flex items-center gap-8">
+                <a class="nav-link font-sans text-[13px] font-medium tracking-[0.06em] uppercase text-on-surface-variant dark:text-primary-fixed/80" href="./index.html">Home</a>
+                <a class="nav-link font-sans text-[13px] font-medium tracking-[0.06em] uppercase text-on-surface-variant dark:text-primary-fixed/80" href="./technology.html">Technology</a>
+                <a class="nav-link font-sans text-[13px] font-medium tracking-[0.06em] uppercase text-on-surface-variant dark:text-primary-fixed/80" href="./sustainability.html">Sustainability</a>
+                <a class="nav-link font-sans text-[13px] font-medium tracking-[0.06em] uppercase text-on-surface-variant dark:text-primary-fixed/80" href="./policy.html">Policy</a>
+                <a class="nav-link font-sans text-[13px] font-medium tracking-[0.06em] uppercase text-on-surface-variant dark:text-primary-fixed/80" href="./contact.html">Contact</a>
             </nav>
-            <div class="hidden md:flex items-center gap-md">
-                <button id="theme-toggle" class="p-2 rounded-full hover:bg-surface-variant dark:hover:bg-primary transition-colors">
-                    <span class="material-symbols-outlined dark:hidden">dark_mode</span>
-                    <span class="material-symbols-outlined hidden dark:block">light_mode</span>
+            <div class="hidden lg:flex items-center gap-4">
+                <button id="theme-toggle" aria-label="Toggle theme" class="w-10 h-10 grid place-items-center rounded-full hover:bg-surface-container-low dark:hover:bg-primary transition-colors">
+                    <span class="material-symbols-outlined dark:hidden text-[20px] text-on-surface-variant">dark_mode</span>
+                    <span class="material-symbols-outlined hidden dark:block text-[20px] text-primary-fixed">light_mode</span>
                 </button>
-                <button onclick="location.href='./contact.html'" class="bg-primary-container text-on-primary font-label-md text-label-md px-lg py-sm rounded active:scale-95 transition-transform">Request Consultation</button>
+                <a href="./contact.html" class="btn-primary">Request consultation <span class="arrow">→</span></a>
             </div>
-            <button id="menu-toggle" class="md:hidden text-primary dark:text-primary-fixed">
-                <span class="material-symbols-outlined">menu</span>
+            <button id="menu-toggle" aria-label="Open menu" class="lg:hidden text-primary dark:text-primary-fixed">
+                <span class="material-symbols-outlined text-[28px]">menu</span>
             </button>
         </div>
     </header>
 
-    <main class="flex-grow flex flex-col">
-        <!-- Hero Section -->
-        <section class="w-full bg-surface-container-low py-xxl border-b border-outline-variant/10">
-            <div class="max-w-container-max mx-auto px-lg text-center max-w-3xl reveal">
-                <span class="inline-block font-label-md text-label-md text-primary bg-primary-fixed px-3 py-1 rounded-full mb-md uppercase tracking-wider">Strategic Governance</span>
-                <h1 class="font-display-lg text-display-lg text-primary mb-md">Policy and Carbon Credits</h1>
-                <p class="font-body-lg text-body-lg text-on-surface-variant">Advancing India’s Carbon-Negative Manufacturing Future. Engineering systems for stringent environmental compliance.</p>
-            </div>
-        </section>
+    <main class="flex-grow">
 
-        <!-- National Policy Alignment -->
-        <section class="py-xxl px-lg max-w-container-max mx-auto">
-            <div class="mb-xl text-center reveal">
-                <h2 class="font-headline-lg text-headline-lg text-primary mb-sm">National Policy Alignment</h2>
-                <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">Our technologies align with core Indian governmental initiatives, ensuring regulatory support.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter reveal" style="transition-delay: 0.2s">
-                <div class="bg-surface-container-lowest p-xl rounded border border-outline-variant/20 shadow-sm hover:shadow-md transition-all">
-                    <div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-full mb-md">
-                        <span class="material-symbols-outlined text-primary">solar_power</span>
+        <!-- Hero -->
+        <section class="pt-16 pb-20 md:pt-24 md:pb-28">
+            <div class="max-w-container-max mx-auto px-6 md:px-10">
+                <div class="grid grid-cols-12 gap-6 md:gap-10 reveal">
+                    <div class="col-span-12 lg:col-span-3">
+                        <span class="eyebrow eyebrow-rule block">Chapter III</span>
+                        <span class="section-marker text-[88px] md:text-[120px] block leading-none mt-4">03</span>
+                        <span class="eyebrow mt-4 block">Strategic Governance</span>
                     </div>
-                    <h3 class="font-headline-md text-headline-md text-on-surface mb-sm">MNRE Alignment</h3>
-                    <p class="font-body-md text-body-md text-on-surface-variant text-sm">Supports the Ministry of New and Renewable Energy objectives by maximizing biomass utilization.</p>
-                </div>
-                <div class="bg-surface-container-lowest p-xl rounded border border-outline-variant/20 shadow-sm hover:shadow-md transition-all">
-                    <div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-full mb-md">
-                        <span class="material-symbols-outlined text-primary">compost</span>
+                    <div class="col-span-12 lg:col-span-9">
+                        <h1 class="font-display text-[34px] sm:text-[52px] md:text-[72px] lg:text-[96px] leading-[1.04] tracking-[-0.035em] font-semibold text-primary dark:text-primary-fixed">
+                            Policy<br>
+                            <span class="font-display-italic font-normal">&amp; Carbon</span><br>
+                            Credits.
+                        </h1>
+                        <p class="font-serif text-body-lg text-on-surface-variant dark:text-primary-fixed/80 max-w-prose mt-10">
+                            Advancing India's Carbon-Negative Manufacturing Future. Engineering systems for stringent environmental compliance.
+                        </p>
                     </div>
-                    <h3 class="font-headline-md text-headline-md text-on-surface mb-sm">NMSA Contribution</h3>
-                    <p class="font-body-md text-body-md text-on-surface-variant text-sm">Contributes to the National Mission for Sustainable Agriculture through biochar soil application.</p>
-                </div>
-                <div class="bg-surface-container-lowest p-xl rounded border border-outline-variant/20 shadow-sm hover:shadow-md transition-all">
-                    <div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-full mb-md">
-                        <span class="material-symbols-outlined text-primary">precision_manufacturing</span>
-                    </div>
-                    <h3 class="font-headline-md text-headline-md text-on-surface mb-sm">Make in India</h3>
-                    <p class="font-body-md text-body-md text-on-surface-variant text-sm">All systems are fully engineered and manufactured indigenously.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Carbon Credit Ecosystem -->
-        <section class="py-xxl px-lg bg-surface-bright border-y border-outline-variant/10">
-            <div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-12 gap-xl items-center reveal">
-                <div class="lg:col-span-5">
-                    <h2 class="font-headline-lg text-headline-lg text-primary mb-md">Carbon Credit Ecosystem</h2>
-                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-lg">Biochar converts agricultural systems from emitters to reliable carbon sinks.</p>
-                    <div class="bg-surface-container-low p-md rounded border-l-4 border-primary">
-                        <h4 class="font-label-md text-label-md text-primary mb-xs">Audit-Ready Engineering</h4>
-                        <p class="font-body-md text-body-md text-on-surface text-sm">Our systems capture rigorous data points required for Life Cycle Assessments (LCA).</p>
+        <hr class="hairline max-w-container-max mx-auto">
+
+        <!-- 01 — National policy alignment -->
+        <section class="py-24 md:py-32">
+            <div class="max-w-container-max mx-auto px-6 md:px-10">
+                <div class="grid grid-cols-12 gap-6 md:gap-10 reveal">
+                    <div class="col-span-12 lg:col-span-3">
+                        <span class="section-marker text-[64px] md:text-[88px] block leading-none">01</span>
+                        <span class="eyebrow mt-4 block">National policy alignment</span>
+                    </div>
+                    <div class="col-span-12 lg:col-span-9">
+                        <h2 class="font-display text-[26px] md:text-headline-lg lg:text-display-sm text-primary dark:text-primary-fixed font-semibold leading-[1.08] tracking-tight max-w-prose">
+                            Our technologies align with core Indian governmental initiatives, ensuring regulatory support.
+                        </h2>
                     </div>
                 </div>
-                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-md">
-                    <div class="bg-surface-container-lowest p-xl rounded border border-outline-variant/20 text-center">
-                        <span class="material-symbols-outlined text-4xl text-outline mb-sm">verified_user</span>
-                        <h3 class="font-headline-md text-headline-md text-on-surface mb-xs">Puro.earth</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Meeting stringent CORC methodologies for biochar production.</p>
+
+                <div class="mt-20 reveal" style="transition-delay: 120ms">
+                    <article class="grid grid-cols-12 gap-6 md:gap-10 py-12 border-t border-outline-variant/50">
+                        <div class="col-span-12 lg:col-span-3 flex items-baseline gap-6">
+                            <span class="section-marker text-[44px] leading-none">i.</span>
+                            <span class="eyebrow">Energy</span>
+                        </div>
+                        <div class="col-span-12 lg:col-span-5">
+                            <h3 class="font-display text-headline-md md:text-headline-lg text-primary dark:text-primary-fixed">MNRE Alignment</h3>
+                            <p class="font-serif text-body-lg text-on-surface-variant dark:text-primary-fixed/80 mt-3 max-w-prose">Supports the Ministry of New and Renewable Energy objectives by maximizing biomass utilization.</p>
+                        </div>
+                        <div class="col-span-12 lg:col-span-4 lg:text-right">
+                            <p class="marginalia max-w-xs lg:ml-auto">Ministry of New &amp; Renewable Energy. Biomass under the National Bioenergy Programme.</p>
+                        </div>
+                    </article>
+                    <article class="grid grid-cols-12 gap-6 md:gap-10 py-12 border-t border-outline-variant/50">
+                        <div class="col-span-12 lg:col-span-3 flex items-baseline gap-6">
+                            <span class="section-marker text-[44px] leading-none">ii.</span>
+                            <span class="eyebrow">Agriculture</span>
+                        </div>
+                        <div class="col-span-12 lg:col-span-5">
+                            <h3 class="font-display text-headline-md md:text-headline-lg text-primary dark:text-primary-fixed">NMSA Contribution</h3>
+                            <p class="font-serif text-body-lg text-on-surface-variant dark:text-primary-fixed/80 mt-3 max-w-prose">Contributes to the National Mission for Sustainable Agriculture through biochar soil application.</p>
+                        </div>
+                        <div class="col-span-12 lg:col-span-4 lg:text-right">
+                            <p class="marginalia max-w-xs lg:ml-auto">Soil health restoration as a measurable mission outcome.</p>
+                        </div>
+                    </article>
+                    <article class="grid grid-cols-12 gap-6 md:gap-10 py-12 border-t border-b border-outline-variant/50">
+                        <div class="col-span-12 lg:col-span-3 flex items-baseline gap-6">
+                            <span class="section-marker text-[44px] leading-none">iii.</span>
+                            <span class="eyebrow">Manufacturing</span>
+                        </div>
+                        <div class="col-span-12 lg:col-span-5">
+                            <h3 class="font-display text-headline-md md:text-headline-lg text-primary dark:text-primary-fixed">Make in India</h3>
+                            <p class="font-serif text-body-lg text-on-surface-variant dark:text-primary-fixed/80 mt-3 max-w-prose">All systems are fully engineered and manufactured indigenously.</p>
+                        </div>
+                        <div class="col-span-12 lg:col-span-4 lg:text-right">
+                            <p class="marginalia max-w-xs lg:ml-auto">Indigenous supply chain from foundry to firmware.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 02 — Carbon credit ecosystem — committed primary surface -->
+        <section class="py-24 md:py-32 bg-primary text-primary-fixed dark:bg-primary">
+            <div class="max-w-container-max mx-auto px-6 md:px-10">
+                <div class="grid grid-cols-12 gap-6 md:gap-10 reveal">
+                    <div class="col-span-12 lg:col-span-3">
+                        <span class="section-marker text-[64px] md:text-[88px] block leading-none">02</span>
+                        <span class="eyebrow text-primary-fixed/70 mt-4 block">Carbon credit ecosystem</span>
                     </div>
-                    <div class="bg-surface-container-lowest p-xl rounded border border-outline-variant/20 text-center">
-                        <span class="material-symbols-outlined text-4xl text-outline mb-sm">fact_check</span>
-                        <h3 class="font-headline-md text-headline-md text-on-surface mb-xs">Verra</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Built to support Verified Carbon Standard (VCS) verification.</p>
+                    <div class="col-span-12 lg:col-span-9">
+                        <h2 class="font-display text-[26px] md:text-headline-lg lg:text-display-sm text-primary-fixed font-semibold leading-[1.08] tracking-tight max-w-prose">
+                            Biochar converts agricultural systems from emitters to <span class="font-display-italic">reliable carbon sinks</span>.
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-6 md:gap-10 mt-20 reveal" style="transition-delay: 120ms">
+                    <aside class="col-span-12 lg:col-span-4">
+                        <div class="border-l-0 pl-0">
+                            <span class="eyebrow text-primary-fixed/70">Audit-ready engineering</span>
+                            <p class="font-display-italic text-[22px] md:text-[24px] leading-[1.4] text-primary-fixed mt-4">
+                                Our systems capture rigorous data points required for Life Cycle Assessments (LCA).
+                            </p>
+                        </div>
+                    </aside>
+                    <div class="col-span-12 lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-10">
+                        <article class="border-t border-primary-fixed/20 pt-8">
+                            <div class="flex items-baseline justify-between">
+                                <span class="font-display text-[28px] section-marker text-accent">i.</span>
+                                <span class="eyebrow text-primary-fixed/70">CORC</span>
+                            </div>
+                            <h3 class="font-display text-headline-md md:text-headline-lg text-primary-fixed mt-4">Puro.earth</h3>
+                            <p class="font-serif text-body-lg text-primary-fixed/85 mt-4 max-w-prose">Meeting stringent CORC methodologies for biochar production.</p>
+                        </article>
+                        <article class="border-t border-primary-fixed/20 pt-8">
+                            <div class="flex items-baseline justify-between">
+                                <span class="font-display text-[28px] section-marker text-accent">ii.</span>
+                                <span class="eyebrow text-primary-fixed/70">VCS</span>
+                            </div>
+                            <h3 class="font-display text-headline-md md:text-headline-lg text-primary-fixed mt-4">Verra</h3>
+                            <p class="font-serif text-body-lg text-primary-fixed/85 mt-4 max-w-prose">Built to support Verified Carbon Standard (VCS) verification.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="py-24 md:py-32">
+            <div class="max-w-container-max mx-auto px-6 md:px-10">
+                <div class="grid grid-cols-12 gap-6 md:gap-10 items-end reveal">
+                    <div class="col-span-12 lg:col-span-8">
+                        <span class="eyebrow eyebrow-rule">Speak with us</span>
+                        <h2 class="font-display text-[26px] md:text-headline-lg lg:text-display-sm text-primary dark:text-primary-fixed font-semibold leading-[1.08] tracking-tight mt-6 max-w-prose">
+                            Begin a feasibility conversation for your site or portfolio.
+                        </h2>
+                    </div>
+                    <div class="col-span-12 lg:col-span-4 flex flex-wrap gap-4 justify-start lg:justify-end">
+                        <a href="./contact.html" class="btn-primary">Request consultation <span class="arrow">→</span></a>
                     </div>
                 </div>
             </div>
@@ -147,39 +249,61 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-surface-container-highest dark:bg-primary-container border-t border-outline-variant/30 dark:border-outline/20">
-        <div class="w-full py-xxl px-lg max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-start gap-xl">
-            <div class="flex flex-col gap-sm">
-                <div class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed">Indigenous Biochar</div>
-                <div class="font-body-md text-body-md text-on-surface dark:text-on-primary-container max-w-md">© 2024 Indigenous Biochar Solutions. Engineering a Regenerative Future.</div>
+    <footer class="border-t border-outline-variant/50 dark:border-primary-fixed/10 bg-background dark:bg-primary-container">
+        <div class="max-w-container-max mx-auto px-6 md:px-10 py-20">
+            <div class="grid grid-cols-12 gap-8">
+                <div class="col-span-12 md:col-span-5">
+                    <div class="font-display text-headline-md text-primary dark:text-primary-fixed leading-tight">Shree Radha Rani Agrotech</div>
+                    <p class="marginalia mt-4 max-w-md">© 2026. Engineering a regenerative future.</p>
+                </div>
+                <div class="col-span-6 md:col-span-3">
+                    <span class="eyebrow block mb-4">Navigate</span>
+                    <ul class="space-y-2 font-serif text-body">
+                        <li><a href="./technology.html" class="hover:text-accent transition-colors text-on-surface dark:text-primary-fixed/90">Technology</a></li>
+                        <li><a href="./sustainability.html" class="hover:text-accent transition-colors text-on-surface dark:text-primary-fixed/90">Sustainability</a></li>
+                        <li><a href="./policy.html" class="hover:text-accent transition-colors text-on-surface dark:text-primary-fixed/90">Policy &amp; Credits</a></li>
+                        <li><a href="./contact.html" class="hover:text-accent transition-colors text-on-surface dark:text-primary-fixed/90">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-6 md:col-span-4">
+                    <span class="eyebrow block mb-4">Office</span>
+                    <p class="font-serif text-body text-on-surface dark:text-primary-fixed/90">Pune, Maharashtra, India</p>
+                    <a href="mailto:inquiries@srragro.com" class="font-serif text-body text-on-surface dark:text-primary-fixed/90 hover:text-accent transition-colors block mt-2">inquiries@srragro.com</a>
+                </div>
             </div>
-            <div class="flex flex-wrap gap-lg md:gap-xl">
-                <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-primary-container/80 hover:text-primary underline transition-all" href="./policy.html">Privacy Policy</a>
-                <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-primary-container/80 hover:text-primary underline transition-all" href="./policy.html">Terms of Service</a>
-                <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-primary-container/80 hover:text-primary underline transition-all" href="./sustainability.html">Sustainability Report</a>
+            <hr class="hairline mt-16">
+            <div class="flex flex-col md:flex-row justify-between gap-4 mt-6">
+                <p class="font-sans text-[12px] tracking-[0.04em] text-on-surface-variant dark:text-primary-fixed/60">Designed and manufactured in India.</p>
+                <ul class="flex flex-wrap gap-6">
+                    <li><a href="./policy.html" class="font-sans text-[12px] tracking-[0.04em] text-on-surface-variant dark:text-primary-fixed/60 hover:text-accent transition-colors">Privacy Policy</a></li>
+                    <li><a href="./policy.html" class="font-sans text-[12px] tracking-[0.04em] text-on-surface-variant dark:text-primary-fixed/60 hover:text-accent transition-colors">Terms of Service</a></li>
+                    <li><a href="./sustainability.html" class="font-sans text-[12px] tracking-[0.04em] text-on-surface-variant dark:text-primary-fixed/60 hover:text-accent transition-colors">Sustainability Report</a></li>
+                </ul>
             </div>
         </div>
     </footer>
 
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu-overlay" class="fixed inset-0 bg-surface z-[100] hidden flex flex-col p-lg">
-        <div class="flex justify-between items-center mb-xl">
-            <div class="font-headline-md text-headline-md font-bold text-primary">Indigenous Biochar</div>
-            <button id="menu-close" class="text-primary"><span class="material-symbols-outlined">close</span></button>
+    <!-- Mobile menu overlay -->
+    <div id="mobile-menu-overlay" class="fixed inset-0 bg-background dark:bg-primary-container z-[100] hidden flex-col p-6">
+        <div class="flex justify-between items-center">
+            <span class="font-display text-headline-sm text-primary dark:text-primary-fixed">Shree Radha Rani Agrotech</span>
+            <button id="menu-close" aria-label="Close menu" class="text-primary dark:text-primary-fixed">
+                <span class="material-symbols-outlined text-[28px]">close</span>
+            </button>
         </div>
-        <nav class="flex flex-col gap-lg">
-            <a class="text-headline-md font-bold border-b border-outline-variant/20 pb-md" href="./index.html">Home</a>
-            <a class="text-headline-md font-bold border-b border-outline-variant/20 pb-md" href="./technology.html">Technology</a>
-            <a class="text-headline-md font-bold border-b border-outline-variant/20 pb-md" href="./sustainability.html">Sustainability</a>
-            <a class="text-headline-md font-bold border-b border-outline-variant/20 pb-md" href="./policy.html">Policy</a>
-            <a class="text-headline-md font-bold border-b border-outline-variant/20 pb-md" href="./contact.html">Contact</a>
+        <nav class="flex flex-col mt-16">
+            <a class="font-display text-[40px] leading-[64px] text-primary dark:text-primary-fixed border-b border-outline-variant/40" href="./index.html">Home</a>
+            <a class="font-display text-[40px] leading-[64px] text-primary dark:text-primary-fixed border-b border-outline-variant/40" href="./technology.html">Technology</a>
+            <a class="font-display text-[40px] leading-[64px] text-primary dark:text-primary-fixed border-b border-outline-variant/40" href="./sustainability.html">Sustainability</a>
+            <a class="font-display text-[40px] leading-[64px] text-primary dark:text-primary-fixed border-b border-outline-variant/40" href="./policy.html">Policy</a>
+            <a class="font-display text-[40px] leading-[64px] text-primary dark:text-primary-fixed" href="./contact.html">Contact</a>
         </nav>
-        <button onclick="location.href='./contact.html'" class="mt-auto bg-primary-container text-on-primary py-md rounded-lg font-bold">Request Consultation</button>
+        <a href="./contact.html" class="btn-primary mt-auto justify-center">Request consultation <span class="arrow">→</span></a>
     </div>
 
-    <!-- Back to Top -->
-    <button id="back-to-top" class="fixed bottom-lg right-lg bg-primary text-white p-3 rounded-full shadow-lg z-40">
-        <span class="material-symbols-outlined">arrow_upward</span>
+    <!-- Back to top -->
+    <button id="back-to-top" aria-label="Back to top" class="fixed bottom-8 right-8 w-12 h-12 grid place-items-center bg-primary text-on-primary rounded-full z-40 shadow-lg">
+        <span class="material-symbols-outlined text-[22px]">arrow_upward</span>
     </button>
 </body>
 
